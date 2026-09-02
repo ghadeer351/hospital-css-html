@@ -23,5 +23,5 @@ This is a responsive hospital website built with HTML and CSS. It includes a hom
 The website will be available at:
 
 ```text
-https://YOUR_USERNAME.github.io/YOUR_REPOSITORY/
+https://ghadeer351.github.io/hospital-css-html/
 ```
