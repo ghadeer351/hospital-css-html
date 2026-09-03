@@ -12,17 +12,16 @@ This is a responsive hospital website built with HTML and CSS. It includes a hom
 
 1. Open the project folder in VS Code.
 2. Open `index.html` in a browser.
-3. You can use the Live Server extension to see changes immediately.
 
 ## Technologies Used
 
 - HTML5
 - CSS3
 - Font Awesome
-- Google Fonts
+
 
 The website will be available at:
 
 ```text
-https://YOUR_USERNAME.github.io/YOUR_REPOSITORY/
+https://ghadeer351.github.io/hospital-css-html/
 ```
