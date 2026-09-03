@@ -13,30 +13,36 @@
   #home .navbar nav {
     width: 100%;
     min-height: 70px;
-    padding: 0 1rem;
-    gap: 1rem;
+    padding: 0 0.5rem;
+    gap: 0.5rem;
   }
 
   #home .navbar img {
-    width: 140px;
+    width: 125px;
   }
 
   .navbar ul {
     min-width: 0;
     flex-wrap: wrap;
     justify-content: flex-end;
-    gap: 0.25rem 0.7rem;
+    gap: 0.2rem 0.45rem;
   }
 
   #home .navbar nav ul a {
-    font-size: 12px;
+    font-size: 11px;
     white-space: nowrap;
+  }
+
+  .github-nav-button {
+    margin: 70px 0 0 0.5rem;
+    padding: 6px 7px;
+    font-size: 10px;
   }
 
   #home .home-content {
     min-height: 650px;
     padding-top: 70px;
-    background-position: 65% center;
+    background-position: 60% center;
   }
 
   #home .home-content .col {
@@ -135,7 +141,7 @@
 
   #help .row .col {
     background-color: white;
-    padding: 1.5rem 1rem;
+    padding: 1.25rem 0.75rem;
     border: 1px solid #ddd;
   }
 
@@ -170,7 +176,7 @@
   }
 
   #costs .row .col {
-    padding: 1.5rem 1rem;
+    padding: 1.25rem 0.75rem;
   }
 
   #costs .row .col h2 {
@@ -202,6 +208,10 @@
     height: auto;
     aspect-ratio: 16 / 9;
     object-fit: cover;
+  }
+
+  #blogs .row .col {
+    padding-bottom: 0.5rem;
   }
 
   #contact {
@@ -252,6 +262,15 @@
   .footer-links,
   .opening-hours {
     justify-items: center;
+  }
+
+  .footer-bottom p {
+    font-size: 12px;
+  }
+
+  .footer-bottom a {
+    color: white;
+    font-weight: 600;
   }
 }
 
