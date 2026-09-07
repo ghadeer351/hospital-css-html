@@ -149,30 +149,6 @@ body {
   color: var(--light-blue);
 }
 
-.github-nav-button {
-  display: inline-flex;
-  position: static;
-  align-items: center;
-  gap: 0.35rem;
-  flex-shrink: 0;
-  margin: 80px 0 0 2rem;
-  background-color: var(--light-blue);
-  color: white;
-  padding: 7px 10px;
-  border-radius: 6px;
-  font-size: 12px;
-  font-weight: 500;
-  transition:
-    background-color 0.3s ease,
-    transform 0.3s ease;
-}
-
-.github-nav-button:hover {
-  background-color: #135fa1;
-  color: white;
-  transform: translateY(-2px);
-}
-
 #home .navbar img {
   width: 250px;
 }
@@ -770,3 +746,8 @@ p {
 .developer-link:hover {
   color: rgb(255 204 74);
 }
+
+/* #contact-btn:hover 
+  background-color: var(--light-blue);
+  color: white;
+} */
